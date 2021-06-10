@@ -1,0 +1,34 @@
+/* .imagens{
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    align-items: center; 
+} */
+
+#slider {
+    width: 100%;
+    height: 550px;
+
+    position: relative;
+
+}
+
+#slider div img{
+    transform: translate(0px, 0px);
+    opacity: 0;
+
+    position: absolute;
+    z-index: -1;
+
+    width: 100%;
+    height: auto;
+
+    object-fit: cover;
+
+    transition: opacity 800ms;
+    bottom: 0;
+}
+
+#slider img.selected { 
+    opacity: 1;
+}

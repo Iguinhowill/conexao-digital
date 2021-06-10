@@ -1,0 +1,33 @@
+footer{
+    background-color: white;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between; 
+    padding: 0px; 
+    width: 100%;
+    align-items: flex-end;
+    position: fixed;
+    bottom: 0;
+}
+
+.card-links:first-child{
+    margin-left: 20px;
+}
+
+.card-links:last-child{
+    margin-right: 20px;
+}
+
+.card-links{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-links div a{
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    color: black;
+    font-size: 14px;
+}

@@ -1,0 +1,14 @@
+.bar-header{
+    background-color: #464444f5;
+    height: 58px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bar-header img{
+    opacity: 1;
+    width: auto;
+    height: 44px;
+    padding-top: 7px;
+    padding-right: 10px;
+}
